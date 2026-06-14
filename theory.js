@@ -26,7 +26,7 @@ const theoryHTML = `
                     <div class="text">A cincea lecție din seria <strong>Computer &amp; Büro</strong>! Azi vorbim despre <strong>smartphone</strong> și <strong>aplicații</strong>: cum <strong>actualizezi o aplicație</strong> (eine App aktualisieren), cum <strong>încarci bateria</strong> (den Akku aufladen), cum <strong>pornești</strong> telefonul, cum reglezi <strong>setările</strong> (die Einstellungen) și ce faci cu prea multe <strong>notificări</strong>. La final ascult un dialog cu Frau Richter, consultanta de la magazinul de telefoane.</div>
                 </div>
             </div>
-            <div class="theory-box" style="background:#dbeafe;border-color:#3b82f6;">
+            <div class="theory-box" style="background:#dbeafe;border-color:#D4A574;">
                 <h4>ℹ️ Telefonul — vocabular de zi cu zi</h4>
                 <p>Smartphone-ul e peste tot, deci vocabularul lui îți e util zilnic — fie că ești la magazin, la muncă sau acasă. Cuvinte-cheie: <strong>die App</strong> (aplicația), <strong>der Akku</strong> (bateria), <strong>das Update</strong> (actualizarea), <strong>die Einstellungen</strong> (setările) și <strong>die Benachrichtigung</strong> (notificarea).</p>
             </div>
