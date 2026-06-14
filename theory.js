@@ -47,7 +47,7 @@ const theoryHTML = `
                 </div>
                 <span class="lesson-audio-label">🔊 Ascultă secțiunea</span>
             </div>
-            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8;border-color:#D4A574;">
                 <h4>🚨 Substantivele se învață ÎNTOTDEAUNA cu pluralul</h4>
                 <p>În germană pluralul e imprevizibil (-e, -en, -s, Umlaut sau identic). De aceea fiecare substantiv apare aici la <strong>singular · plural</strong>. Învață-le împreună, ca pe o pereche.</p>
             </div>
@@ -88,7 +88,7 @@ const theoryHTML = `
                 </div>
                 <span class="lesson-audio-label">🔊 Ascultă secțiunea</span>
             </div>
-            <div class="theory-box" style="background:#f0fdf4;">
+            <div class="theory-box" style="background:#FBF7EF;">
                 <h4>💡 Pașii de bază</h4>
                 <p>Aplicațiile se <strong>descarcă</strong> din App Store și apoi se <strong>actualizează</strong> regulat („aktualisieren") ca să meargă bine. Dacă bateria e goală, o <strong>încarci</strong> („den Akku aufladen"). În <strong>Einstellungen</strong> reglezi totul: notificări, sunet, luminozitate. Iar dacă ceva nu merge, <strong>pornești și oprești</strong> telefonul („ein- und ausschalten").</p>
             </div>
