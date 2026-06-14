@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone & Apps — germană pentru telefon și aplicații · A2/B1</title>
+    <meta property="og:title" content="Computer & Büro Teil 5 — Smartphone & Apps">
+    <meta property="og:description" content="Germană pentru telefon: App, Akku, Update, Einstellungen, Benachrichtigung, verbele aktualisieren/aufladen/einschalten/drücken/benutzen + dialog animat la magazin. Nivel A2/B1.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#top" class="navbar-logo">ʚଓ Claudia Toth</a>
+        <ul class="navbar-menu">
+            <li><a href="#teorie" onclick="openSection(0)">Teorie</a></li>
+            <li><a href="#dialog" onclick="openSection(1)">🎬 Dialog</a></li>
+            <li><a href="#ex1" onclick="openSection(2)">Ex. 1</a></li>
+            <li><a href="#ex2" onclick="openSection(3)">Ex. 2</a></li>
+            <li><a href="#ex3" onclick="openSection(4)">Ex. 3</a></li>
+            <li><a href="#ex4" onclick="openSection(5)">Ex. 4</a></li>
+            <li><a href="#ex5" onclick="openSection(6)">Ex. 5</a></li>
+            <li><a href="#flashcards" onclick="openSection(7)">📇 Flashcards</a></li>
+            <li><a href="#verbs" onclick="openSection(8)">🔁 Verb-Konjugation</a></li>
+            <li><a href="#final-test" onclick="openSection(9)">🎯 Test Final</a></li>
+            <li><a href="#schreiben" onclick="openSection(10)">✍️ Schreiben</a></li>
+            <li><a href="curs-computer-5-smartphone-apps.pdf" download>📄 PDF</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="top">
+        <div class="header">
+            <h1>ʚଓ Smartphone & Apps</h1>
+            <p class="subtitle">Germană pentru telefon și aplicații — baterie, update-uri, setări, notificări · Nivel A2/B1</p>
+            <p>Claudia Toth · Deutsch am Computer & im Büro — Teil 5</p>
+        </div>
+
+        <div class="content">
+            <div class="section" id="teorie">
+                <div class="section-header" onclick="toggleMainSection(0)"><h3>ʚଓ TEORIE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-0"><div id="theory-container"></div></div>
+            </div>
+
+            <div class="section" id="dialog">
+                <div class="section-header" onclick="toggleMainSection(1)"><h3>ʚଓ 🎬 Dialog animat: Probleme mit dem Smartphone</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-1">
+                    <p style="margin-bottom:14px;"><em>Apasă ▶️ Pornește. Telefonul Andreei are probleme (baterie, update, notificări, cameră); Frau Richter, consultanta de la magazin, o ajută pas cu pas. Reascultă orice replică cu 🔁.</em></p>
+                    <div id="dialog1-container"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex1">
+                <div class="section-header" onclick="toggleMainSection(2)"><h3>ʚଓ Übung 1: Lückentext — completează</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-2">
+                    <div id="ex1-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(1)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(1)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-1"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex2">
+                <div class="section-header" onclick="toggleMainSection(3)"><h3>ʚଓ Übung 2: Quiz — alegere multiplă</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-3">
+                    <div id="ex2-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(2)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(2)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-2"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex3">
+                <div class="section-header" onclick="toggleMainSection(4)"><h3>ʚଓ Übung 3: Potrivește vocabularul</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-4">
+                    <div id="ex3-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(3)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(3)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-3"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex4">
+                <div class="section-header" onclick="toggleMainSection(5)"><h3>ʚଓ Übung 4: Traduceri RO → DE</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-5">
+                    <div id="ex4-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(4)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(4)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-4"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex5">
+                <div class="section-header" onclick="toggleMainSection(6)"><h3>ʚଓ Übung 5: Situație ↔ expresie</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-6">
+                    <div id="ex5-container"></div>
+                    <div class="btn-container"><button class="btn btn-check" onclick="checkExercise(5)">✓ Verifica</button><button class="btn btn-reset" onclick="resetExercise(5)">↻ Reseteaza</button></div>
+                    <div class="score" id="score-5"></div>
+                </div>
+            </div>
+
+            <div class="section" id="flashcards">
+                <div class="section-header" onclick="toggleMainSection(7)"><h3>ʚଓ Flashcards - Învățare prin repetiție</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-7"><div id="flashcards-container"></div></div>
+            </div>
+
+            <div class="section" id="verbs">
+                <div class="section-header" onclick="toggleMainSection(8)"><h3>ʚଓ 🔁 Verb-Konjugation - Verbe pentru telefon</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-8"><div id="verbs-container"></div></div>
+            </div>
+
+            <div class="section" id="final-test">
+                <div class="section-header" onclick="toggleMainSection(9)"><h3>ʚଓ 🎯 Test Final - Testează-ți cunoștințele!</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-9"><div id="final-test-container"></div></div>
+            </div>
+
+            <div class="section" id="schreiben">
+                <div class="section-header" onclick="toggleMainSection(10)"><h3>ʚଓ ✍️ Schreibwerkstatt - Atelier de scriere</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-10">
+                    <div class="exercise-instruction">
+                        <strong>✍️ Sarcina de scriere:</strong> Scrie un text scurt (aprox. <strong>40-60 de cuvinte</strong>) — descrie o problemă cu telefonul tău și cum ai rezolvat-o: ce nu mergea (baterie, memorie, aplicație, notificări), ce ai făcut și cum e acum. Folosește <strong>minimum 6 cuvinte</strong> din lecție.
+                    </div>
+                    <div class="theory-box" style="background:#f0fdf4;">
+                        <h4>💡 Răspunde la întrebările (Leitfragen):</h4>
+                        <ul style="margin:6px 0 0 18px; line-height:1.7;">
+                            <li>❓ <strong>Was war das Problem?</strong> (Care era problema? — Akku, Speicher, App)</li>
+                            <li>🔋 <strong>Was haben Sie mit dem Akku gemacht?</strong> (Ce ai făcut cu bateria? — aufladen)</li>
+                            <li>⚙️ <strong>Was haben Sie in den Einstellungen geändert?</strong> (Ce ai schimbat în setări?)</li>
+                            <li>🔄 <strong>Mussten Sie etwas aktualisieren oder neu starten?</strong> (A trebuit să actualizezi / repornești ceva?)</li>
+                            <li>✅ <strong>Wie ist es jetzt?</strong> (Cum e acum?)</li>
+                        </ul>
+                    </div>
+                    <div class="theory-box" style="background:#fffbeb; border-left:4px solid #f59e0b;">
+                        <h4>📝 Model (ca să-ți fie mai ușor):</h4>
+                        <p class="de" style="color:#065f46;"><em>Mein Smartphone hatte viele Probleme. Der Akku war immer schnell leer, also habe ich Apps geschlossen und die Helligkeit reduziert. Mein Speicher war voll, deshalb habe ich alte Fotos gelöscht. Eine App ließ sich nicht aktualisieren, aber im App Store hat es dann funktioniert. Ich habe auch zu viele Benachrichtigungen ausgeschaltet. Jetzt läuft alles wieder gut.</em></p>
+                        <p class="ro" style="color:#6b7280; font-style:italic;">(Smartphone-ul meu avea multe probleme. Bateria se descărca mereu repede, așa că am închis aplicații și am redus luminozitatea. Memoria era plină, de aceea am șters poze vechi. O aplicație nu se lăsa actualizată, dar în App Store a funcționat apoi. Am dezactivat și prea multe notificări. Acum totul merge bine din nou.)</p>
+                    </div>
+                    <div style="text-align:center; margin-top:22px;">
+                        <p style="color:#047857; margin-bottom:14px; font-size:1rem;">Când ești gata, trimite-mi textul tău prin formular. Îl citesc și îți dau feedback personalizat. 🦋</p>
+                        <a href="https://forms.gle/J9PzcXRjeuJ9K8ME8" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:#10B981; color:white; padding:14px 32px; border-radius:10px; text-decoration:none; font-weight:bold; font-size:1.05rem; box-shadow:0 2px 6px rgba(16,185,129,0.3);">✍️ Trimite textul tău →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="theory-box" style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.3rem; font-weight: bold; color: #065f46;">🎉 Sehr gut gemacht!</p>
+                <p>Acum te descurci cu orice telefon în germană: încarci bateria (den Akku aufladen), actualizezi aplicațiile (aktualisieren), reglezi setările și notificările (Einstellungen / Benachrichtigungen), eliberezi memoria și repornești telefonul când ceva nu merge. Ești pregătit(ă) și pentru o vizită la magazinul de telefoane! Herzlichen Glückwunsch! 💚</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="theory.js"></script>
+    <script src="dialogs.js?v=1"></script>
+    <script src="exercises.js"></script>
+    <script src="flashcards.js"></script>
+    <script src="verbs.js"></script>
+    <script src="final-test.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
